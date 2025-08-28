@@ -3,23 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Weiterleitung…</title>
-  <script>
-    // 👉 Hier einmal deine Ziel-URL eintragen:
-    const targetUrl = "https://www.linkedin.com/company/107383889";
-
-    // Automatische Weiterleitung
-    window.location.replace(targetUrl);
-  </script>
+  <meta http-equiv="refresh" content="0; url=https://www.linkedin.com/company/107383889">
 </head>
 <body>
-  <p>Du wirst weitergeleitet nach 
-    <a id="redirectLink" href="#">Lade Zielseite…</a>
+  <p>Du wirst weitergeleitet zu 
+    <a href="https://www.linkedin.com/company/107383889">LinkedIn</a>.
   </p>
-
-  <script>
-    // Setzt den Link automatisch auf die Ziel-URL
-    document.getElementById("redirectLink").href = targetUrl;
-    document.getElementById("redirectLink").textContent = targetUrl;
-  </script>
 </body>
 </html>
